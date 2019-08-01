@@ -1,0 +1,6 @@
+library(quantmod)
+tail(getSymbols('A',env = NULL))
+getFX("USD/EUR")
+tail(USDEUR)
+methods(getSymbols)
+str(stockSymbols())
